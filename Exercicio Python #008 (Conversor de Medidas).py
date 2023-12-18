@@ -1,0 +1,5 @@
+m = float(input('Digite o valor em metros: '))
+c = m*(100)
+mi = m*(1000)
+print('{} metros em centímetros é {:.0f}'.format(m, c))
+print('{} metros em milímetros é {:.0f}'.format(m, mi))

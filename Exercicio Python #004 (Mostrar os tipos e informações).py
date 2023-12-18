@@ -1,0 +1,7 @@
+n1 = (input('Digite algo: '))
+print(type(n1))
+print('Essa variável é uma letra? :', n1.isalpha())
+print('Essa variável é número? :', n1.isnumeric())
+print('Essa variável é um alfanumerico? :', n1.isalnum())
+print('Essa variável está em letra maiúscula? :', n1.isupper())
+print('Essa variável está capitalizada? :', n1.istitle())
